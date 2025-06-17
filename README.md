@@ -4,7 +4,7 @@ This is the official repository of
 
 **NetRoller: Interfacing General and Specialized Models for End-to-End Autonomous Driving**
 
-[Ren Xin](https://rex-sys-hk.github.io), [Hongji Liu](http://liuhongji.site), [Xiaodong Mei](), [Wenru Liu]() and [Jun Ma](https://personal.hkust-gz.edu.cn/junma/index.html)
+[Ren Xin](https://rex-sys-hk.github.io), [Hongji Liu](http://liuhongji.site), [Xiaodong Mei](), [Wenru Liu](), [Maosheng Ye](), [Zhili Chen]() and [Jun Ma](https://personal.hkust-gz.edu.cn/junma/index.html)
 
 
 <!-- <p align="left">
@@ -48,21 +48,6 @@ Comming soon.
 
 ## Checkpoint
 
-
-<!-- | Model            | Download |
-| ---------------- | -------- |
-| Pluto-aux-nocil-m6-baseline  | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rxin_connect_ust_hk/EYkVd-OcOTFLlP5KE7ZnG-0BrluObe4vd7jNAhHeKtmcjw?e=UBmqf1)|
-| PlanScope-Ih10-DWT | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rxin_connect_ust_hk/EXjVIgwKh3hCmMfJ-rQArcABRn3tH1RZhptPOLYRJjkS2A?e=scYt4e)    |
-| PlanScope-Mh10-DWH | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rxin_connect_ust_hk/EXVaD_lc3kJBtUxGSQBBgPwBl8isEQzRaDtfrJ-geDB-XQ?e=pnbSPy)    |
-| PlanScope-Mh20-DWT | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rxin_connect_ust_hk/EajN1DzBjKhMg4GiqkuuHuoBGilZzJbkK5QiPD9_GuoDLQ?e=BgidZM)    |
-| --- |
-| PlanScope-Th20 | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rxin_connect_ust_hk/EcHd8CFgBH1JqKT9yMyPsr0BukUsXTjfJpNSik_vQQrsLw?e=48VbzA)    |
-| PlanScope-timedecay | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rxin_connect_ust_hk/EdMfIvFKuFlLh-SyHVvMB74Bs3TxH5hEp3HCSU34b6yAjg?e=KmVDGh)    |
-| PlanScope-timenorm | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rxin_connect_ust_hk/EUMawRA-i-NIimhVp_I_Ft8BeuHWrCJzsVXb-E4BEMMQuA?e=0uRrDN)    |
-| --- |
-| Pluto-1M-aux-cil-m12-original | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/jchengai_connect_ust_hk/EaFpLwwHFYVKsPVLH2nW5nEBNbPS7gqqu_Rv2V1dzODO-Q?e=LAZQcI)    |
-| PlanScope-timenorm-cil-m12 | [OneDrive](https://hkustconnect-my.sharepoint.com/:u:/g/personal/rxin_connect_ust_hk/Ed863-9h9ZtFm145JyWGjCIBbF-rInj8P2smuXeG0SAPsg?e=g860Ho)    | -->
-
 Comming soon.
 
 ## Evaluation
@@ -81,6 +66,8 @@ The code is under cleaning and will be released gradually.
 - [ ] Source
 - [x] Initial repo & paper
 
+The code and models will be made open-source gradually before the paper is accepeted.
+
 ## Citation
 
 If you find this repo useful, please consider giving us a star 🌟 and citing our related paper.
@@ -90,19 +77,9 @@ Coming soon.
 ```
 
 ## Thanks
+- [Circuit_Tracing](https://transformer-circuits.pub/2025/attribution-graphs/methods.html)
 - [DriveLM](https://github.com/OpenDriveLab/DriveLM)
 - [VAD](https://github.com/hustvl/VAD)
-- [Circuit_Tracing](https://transformer-circuits.pub/2025/attribution-graphs/methods.html)
-
-
-<!-- ## Special Announcement (Updated on 4 March 2025)
-
-Our approach has achieved a CLS-NR score of 91.32% without rule-based post-processing, which currently is the highest score in pure-model-mode. 
-However, the main objective is to find a general method for addressing horizon fusing problem, thus enhance the performance of planning models during execution. -->
-
-<!-- This work investigates a technique to enhance the performance of planning models in a pure learning framework. We have deliberately omitted the rule-based pre- and post-processing modules from the baseline approach to mitigate the impact of artificially crafted rules, as claimed in our paper. A certain unauthorized publication led to **inaccuracies in the depiction of its state-of-the-art (SOTA) capabilities**. We hereby clarify this to prevent misunderstanding.
-
-Nevertheless, the method introduced in our article is worth trying and could potentially serve as an add-on to augment the performance of the models you are developing, especially when the dataset is small. We are open to sharing and discussing evaluation results to foster a collaborative exchange. -->
 
 ## Others
 
