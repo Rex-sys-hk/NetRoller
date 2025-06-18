@@ -7,14 +7,14 @@ This is the official repository of
 [Ren Xin](https://rex-sys-hk.github.io), [Hongji Liu](http://liuhongji.site), [Xiaodong Mei](), [Wenru Liu](), [Maosheng Ye](), [Zhili Chen]() and [Jun Ma](https://personal.hkust-gz.edu.cn/junma/index.html)
 
 
-<!-- <p align="left">
-<a href="https://rex-sys-hk.github.io/pub_webs/PlanScope/">
+<p align="left">
+<a href="https://github.com/Rex-sys-hk/NetRoller">
 <img src="https://img.shields.io/badge/Project-Page-blue?style=flat">
 </a>
-<a href='https://arxiv.org/abs/2411.00476' style='padding-left: 0.5rem;'>
+<a href='https://arxiv.org/abs/2506.14589' style='padding-left: 0.5rem;'>
     <img src='https://img.shields.io/badge/arXiv-PDF-red?style=flat&logo=arXiv&logoColor=wihte' alt='arXiv PDF'>
 </a>
-</p> -->
+</p>
 
 <img src="doc/overview.png" height=350>
 
