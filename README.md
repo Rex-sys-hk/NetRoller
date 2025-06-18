@@ -79,7 +79,15 @@ The code and models will be made open-source gradually before the paper is accep
 If you find this repo useful, please consider giving us a star 🌟 and citing our related paper.
 
 ```bibtex
-Coming soon.
+@misc{netroller,
+      title={{NetRoller:} Interfacing General and Specialized Models for End-to-End Autonomous Driving}, 
+      author={Ren Xin and Hongji Liu and Xiaodong Mei and Wenru Liu and Maosheng Ye and Zhili Chen and Jun Ma},
+      year={2025},
+      eprint={2506.14589},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2506.14589}, 
+}
 ```
 
 ## Thanks
