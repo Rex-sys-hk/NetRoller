@@ -1,0 +1,340 @@
+// evaluation start!
+// PTBTokenizer tokenized 736 tokens at 11997.99 tokens per second.
+// PTBTokenizer tokenized 9 tokens at 126.29 tokens per second.
+// accuracy score:  0.0
+// match score:  0.0
+// language score:  {'val/Bleu_1': 7.393196603274035e-286, 'val/Bleu_2': 2.3379340467455897e-281, 'val/Bleu_3': 7.393196608202841e-280, 'val/Bleu_4': 4.157499978396033e-279, 'val/ROUGE_L': 0.0, 'val/CIDEr': 0.0}
+// final score:  1.6400665730011447e-280
+
+[
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_542eaf1fc9b34895a9e55fab57cb4cf4_2",
+        "question": "<image>\nIs <c1,CAM_FRONT,714.3,503.6> a traffic sign or a road barrier?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_542eaf1fc9b34895a9e55fab57cb4cf4_3",
+        "question": "<image>\nWhat actions could the ego vehicle take based on <c1,CAM_FRONT,714.3,503.6>? Why take this action and what's the probability?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_542eaf1fc9b34895a9e55fab57cb4cf4_4",
+        "question": "<image>\nWhat actions taken by the ego vehicle can lead to a collision with <c1,CAM_FRONT,714.3,503.6>?",
+        "answer": "Response\n Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_542eaf1fc9b34895a9e55fab57cb4cf4_5",
+        "question": "<image>\nIn this scenario, what are safe actions to take for the ego vehicle?",
+        "answer": "Response (communication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_4a0798f849ca477ab18009c3a20b7df2_0",
+        "question": "<image>\nWhat are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_4a0798f849ca477ab18009c3a20b7df2_1",
+        "question": "<image>\nWhat is the moving status of object <c1,CAM_BACK,1088.3,497.5>? Please select the correct answer from the following options: A. Stopped. B. Turn left. C. Turn right. D. Reverse parking.",
+        "answer": "///\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_4a0798f849ca477ab18009c3a20b7df2_2",
+        "question": "<image>\nWhat object should the ego vehicle notice first when the ego vehicle is getting to the next possible location? What is the state of the object that is first noticed by the ego vehicle and what action should the ego vehicle take? What object should the ego vehicle notice second when the ego vehicle is getting to the next possible location? What is the state of the object perceived by the ego vehicle as second and what action should the ego vehicle take? What object should the ego vehicle notice third? What is the state of the object perceived by the ego vehicle as third and what action should the ego vehicle take?",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Hinweis Hinweis\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_4a0798f849ca477ab18009c3a20b7df2_3",
+        "question": "<image>\nIs <c1,CAM_BACK,1088.3,497.5> a traffic sign or a road barrier?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_542eaf1fc9b34895a9e55fab57cb4cf4_6",
+        "question": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is steering to the right. The ego vehicle is driving fast. B. The ego vehicle is going straight. The ego vehicle is driving slowly. C. The ego vehicle is slightly steering to the left. The ego vehicle is driving slowly. D. The ego vehicle is slightly steering to the right. The ego vehicle is driving very fast.",
+        "answer": "Microsoft\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Hinweis Hinweis Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_1b45a97a0e5e49fe9cd345dd4bd729c3_0",
+        "question": "<image>\nWhat are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_1b45a97a0e5e49fe9cd345dd4bd729c3_1",
+        "question": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,767.5,513.3>? Please select the correct answer from the following options: A. Turn right. B. Going ahead. C. Turn left. D. Reverse parking.",
+        "answer": "##\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_1b45a97a0e5e49fe9cd345dd4bd729c3_2",
+        "question": "<image>\nIs <c1,CAM_FRONT,767.5,513.3> a traffic sign or a road barrier?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_4a0798f849ca477ab18009c3a20b7df2_4",
+        "question": "<image>\nWhat actions could the ego vehicle take based on <c1,CAM_BACK,1088.3,497.5>? Why take this action and what's the probability?",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_4a0798f849ca477ab18009c3a20b7df2_5",
+        "question": "<image>\nWhat actions taken by the ego vehicle can lead to a collision with <c1,CAM_BACK,1088.3,497.5>?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_4a0798f849ca477ab18009c3a20b7df2_6",
+        "question": "<image>\nIn this scenario, what are safe actions to take for the ego vehicle?",
+        "answer": "Response                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_4a0798f849ca477ab18009c3a20b7df2_7",
+        "question": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is driving fast. B. The ego vehicle is steering to the left. The ego vehicle is driving very fast. C. The ego vehicle is steering to the right. The ego vehicle is driving with normal speed. D. The ego vehicle is going straight. The ego vehicle is driving slowly.",
+        "answer": "Predictional\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_1b45a97a0e5e49fe9cd345dd4bd729c3_3",
+        "question": "<image>\nWhat actions could the ego vehicle take based on <c1,CAM_FRONT,767.5,513.3>? Why take this action and what's the probability?",
+        "answer": "///\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_1b45a97a0e5e49fe9cd345dd4bd729c3_4",
+        "question": "<image>\nWhat actions taken by the ego vehicle can lead to a collision with <c1,CAM_FRONT,767.5,513.3>?",
+        "answer": "Response\n Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_1b45a97a0e5e49fe9cd345dd4bd729c3_5",
+        "question": "<image>\nIn this scenario, what are safe actions to take for the ego vehicle?",
+        "answer": "Response (communication\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_1b45a97a0e5e49fe9cd345dd4bd729c3_6",
+        "question": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is driving fast. B. The ego vehicle is going straight. The ego vehicle is not moving. C. The ego vehicle is steering to the right. The ego vehicle is driving very fast. D. The ego vehicle is slightly steering to the right. The ego vehicle is driving very fast.",
+        "answer": "Microsoft\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_ffd1bdf020d145759224c629b501d2b2_0",
+        "question": "<image>\nWhat are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+        "answer": "\u2002\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_ffd1bdf020d145759224c629b501d2b2_1",
+        "question": "<image>\nWhat object should the ego vehicle notice first when the ego vehicle is getting to the next possible location? What is the state of the object that is first noticed by the ego vehicle and what action should the ego vehicle take? What object should the ego vehicle notice second when the ego vehicle is getting to the next possible location? What is the state of the object perceived by the ego vehicle as second and what action should the ego vehicle take? What object should the ego vehicle notice third? What is the state of the object perceived by the ego vehicle as third and what action should the ego vehicle take?",
+        "answer": "________________\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_ffd1bdf020d145759224c629b501d2b2_2",
+        "question": "<image>\nIs <c1,CAM_BACK,991.7,603.0> a traffic sign or a road barrier?",
+        "answer": "\u2002\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_ffd1bdf020d145759224c629b501d2b2_3",
+        "question": "<image>\nWhat actions could the ego vehicle take based on <c1,CAM_BACK,991.7,603.0>? Why take this action and what's the probability?",
+        "answer": "///\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_d5e16062410f4e329d31a881b28e5c1c_0",
+        "question": "<image>\nWhat are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+        "answer": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_d5e16062410f4e329d31a881b28e5c1c_1",
+        "question": "<image>\nWhat is the moving status of object <c1,CAM_FRONT_RIGHT,850.0,484.2>? Please select the correct answer from the following options: A. Back up. B. Reverse parking. C. Going ahead. D. Turn left.",
+        "answer": "///\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_d5e16062410f4e329d31a881b28e5c1c_2",
+        "question": "<image>\nIs <c1,CAM_FRONT_RIGHT,850.0,484.2> a traffic sign or a road barrier?",
+        "answer": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_d5e16062410f4e329d31a881b28e5c1c_3",
+        "question": "<image>\nWhat actions could the ego vehicle take based on <c1,CAM_FRONT_RIGHT,850.0,484.2>? Why take this action and what's the probability?",
+        "answer": "               \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_ffd1bdf020d145759224c629b501d2b2_4",
+        "question": "<image>\nWhat actions taken by the ego vehicle can lead to a collision with <c1,CAM_BACK,991.7,603.0>?",
+        "answer": "\u2002\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_ffd1bdf020d145759224c629b501d2b2_5",
+        "question": "<image>\nIn this scenario, what are safe actions to take for the ego vehicle?",
+        "answer": "Response                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_ffd1bdf020d145759224c629b501d2b2_6",
+        "question": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the right. The ego vehicle is driving with normal speed. B. The ego vehicle is steering to the left. The ego vehicle is driving slowly. C. The ego vehicle is slightly steering to the left. The ego vehicle is driving with normal speed. D. The ego vehicle is going straight. The ego vehicle is driving slowly.",
+        "answer": "Predictional\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_d9075c2a5f864a2b8abf41e703f4cf1c_0",
+        "question": "<image>\nWhat are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_d5e16062410f4e329d31a881b28e5c1c_4",
+        "question": "<image>\nWhat actions taken by the ego vehicle can lead to a collision with <c1,CAM_FRONT_RIGHT,850.0,484.2>?",
+        "answer": "               \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_d5e16062410f4e329d31a881b28e5c1c_5",
+        "question": "<image>\nIn this scenario, what are safe actions to take for the ego vehicle?",
+        "answer": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_d5e16062410f4e329d31a881b28e5c1c_6",
+        "question": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is going straight. The ego vehicle is not moving. B. The ego vehicle is going straight. The ego vehicle is driving very fast. C. The ego vehicle is slightly steering to the left. The ego vehicle is driving with normal speed. D. The ego vehicle is going straight. The ego vehicle is driving slowly.",
+        "answer": "///\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_7abe79e5d3d745bcb237a4b7e03d1577_0",
+        "question": "<image>\nWhat are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+        "answer": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_d9075c2a5f864a2b8abf41e703f4cf1c_1",
+        "question": "<image>\nWhat is the moving status of object <c1,CAM_FRONT_LEFT,231.5,472.1>? Please select the correct answer from the following options: A. Back up. B. Going ahead. C. Drive backward. D. Reverse parking.",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_d9075c2a5f864a2b8abf41e703f4cf1c_2",
+        "question": "<image>\nWhat object should the ego vehicle notice first when the ego vehicle is getting to the next possible location? What is the state of the object that is first noticed by the ego vehicle and what action should the ego vehicle take? What object should the ego vehicle notice second when the ego vehicle is getting to the next possible location? What is the state of the object perceived by the ego vehicle as second and what action should the ego vehicle take? What object should the ego vehicle notice third? What is the state of the object perceived by the ego vehicle as third and what action should the ego vehicle take?",
+        "answer": "________________\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_d9075c2a5f864a2b8abf41e703f4cf1c_3",
+        "question": "<image>\nIs <c1,CAM_FRONT_LEFT,231.5,472.1> a traffic sign or a road barrier?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_d9075c2a5f864a2b8abf41e703f4cf1c_4",
+        "question": "<image>\nWhat actions could the ego vehicle take based on <c1,CAM_FRONT_LEFT,231.5,472.1>? Why take this action and what's the probability?",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_7abe79e5d3d745bcb237a4b7e03d1577_1",
+        "question": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,1458.3,492.5>? Please select the correct answer from the following options: A. Reverse parking. B. Stopped. C. Going ahead. D. Turn left.",
+        "answer": "///\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_7abe79e5d3d745bcb237a4b7e03d1577_2",
+        "question": "<image>\nIs <c1,CAM_FRONT,1458.3,492.5> a traffic sign or a road barrier?",
+        "answer": "               \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_7abe79e5d3d745bcb237a4b7e03d1577_3",
+        "question": "<image>\nWhat actions could the ego vehicle take based on <c1,CAM_FRONT,1458.3,492.5>? Why take this action and what's the probability?",
+        "answer": "               \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_7abe79e5d3d745bcb237a4b7e03d1577_4",
+        "question": "<image>\nWhat actions taken by the ego vehicle can lead to a collision with <c1,CAM_FRONT,1458.3,492.5>?",
+        "answer": "               \n Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_d9075c2a5f864a2b8abf41e703f4cf1c_5",
+        "question": "<image>\nWhat actions taken by the ego vehicle can lead to a collision with <c1,CAM_FRONT_LEFT,231.5,472.1>?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_d9075c2a5f864a2b8abf41e703f4cf1c_6",
+        "question": "<image>\nIn this scenario, what are safe actions to take for the ego vehicle?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_d9075c2a5f864a2b8abf41e703f4cf1c_7",
+        "question": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is steering to the left. The ego vehicle is driving with normal speed. B. The ego vehicle is steering to the right. The ego vehicle is driving with normal speed. C. The ego vehicle is slightly steering to the right. The ego vehicle is driving with normal speed. D. The ego vehicle is going straight. The ego vehicle is driving slowly.",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_dfb8d8959b9944d69dcec6d05e419f04_0",
+        "question": "<image>\nWhat are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_7abe79e5d3d745bcb237a4b7e03d1577_5",
+        "question": "<image>\nIn this scenario, what are safe actions to take for the ego vehicle?",
+        "answer": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_7abe79e5d3d745bcb237a4b7e03d1577_6",
+        "question": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the right. The ego vehicle is driving slowly. B. The ego vehicle is slightly steering to the left. The ego vehicle is driving fast. C. The ego vehicle is slightly steering to the right. The ego vehicle is driving with normal speed. D. The ego vehicle is going straight. The ego vehicle is not moving.",
+        "answer": "               \n Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_0dd14c14cea14dc1b0c0c9b0c9c7c4c3_0",
+        "question": "<image>\nWhat are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_0dd14c14cea14dc1b0c0c9b0c9c7c4c3_1",
+        "question": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,1321.7,495.0>? Please select the correct answer from the following options: A. Drive backward. B. Turn right. C. Stopped. D. Going ahead.",
+        "answer": "##\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_dfb8d8959b9944d69dcec6d05e419f04_1",
+        "question": "<image>\nWhat is the moving status of object <c1,CAM_BACK,1568.3,505.0>? Please select the correct answer from the following options: A. Going ahead. B. Back up. C. Stopped. D. Drive backward.",
+        "answer": "///\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_dfb8d8959b9944d69dcec6d05e419f04_2",
+        "question": "<image>\nWhat object should the ego vehicle notice first when the ego vehicle is getting to the next possible location? What is the state of the object that is first noticed by the ego vehicle and what action should the ego vehicle take? What object should the ego vehicle notice second when the ego vehicle is getting to the next possible location? What is the state of the object perceived by the ego vehicle as second and what action should the ego vehicle take? What object should the ego vehicle notice third? What is the state of the object perceived by the ego vehicle as third and what action should the ego vehicle take?",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_dfb8d8959b9944d69dcec6d05e419f04_3",
+        "question": "<image>\nIs <c1,CAM_BACK,1568.3,505.0> a traffic sign or a road barrier?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_dfb8d8959b9944d69dcec6d05e419f04_4",
+        "question": "<image>\nWhat actions could the ego vehicle take based on <c1,CAM_BACK,1568.3,505.0>? Why take this action and what's the probability?",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_0dd14c14cea14dc1b0c0c9b0c9c7c4c3_2",
+        "question": "<image>\nIs <c1,CAM_FRONT,1321.7,495.0> a traffic sign or a road barrier?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_0dd14c14cea14dc1b0c0c9b0c9c7c4c3_3",
+        "question": "<image>\nWhat actions could the ego vehicle take based on <c1,CAM_FRONT,1321.7,495.0>? Why take this action and what's the probability?",
+        "answer": "##\n\n\n\n\n\n\n\n\n\n\n\n Hinweis\n\n Hinweis\n\n\n\n\n\n\n\n Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_0dd14c14cea14dc1b0c0c9b0c9c7c4c3_4",
+        "question": "<image>\nWhat actions taken by the ego vehicle can lead to a collision with <c2,CAM_FRONT,629.2,475.0>?",
+        "answer": "Response Hinweis Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_0dd14c14cea14dc1b0c0c9b0c9c7c4c3_5",
+        "question": "<image>\nIn this scenario, what are safe actions to take for the ego vehicle?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_dfb8d8959b9944d69dcec6d05e419f04_5",
+        "question": "<image>\nWhat actions taken by the ego vehicle can lead to a collision with <c1,CAM_BACK,1568.3,505.0>?",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_dfb8d8959b9944d69dcec6d05e419f04_6",
+        "question": "<image>\nIn this scenario, what are safe actions to take for the ego vehicle?",
+        "answer": "Response\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "f0f120e4d4b0441da90ec53b16ee169d_dfb8d8959b9944d69dcec6d05e419f04_7",
+        "question": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the left. The ego vehicle is driving very fast. B. The ego vehicle is going straight. The ego vehicle is driving very fast. C. The ego vehicle is going straight. The ego vehicle is driving fast. D. The ego vehicle is going straight. The ego vehicle is driving with normal speed.",
+        "answer": "Predictive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_542eaf1fc9b34895a9e55fab57cb4cf4_0",
+        "question": "<image>\nWhat are the important objects in the current scene? Those objects will be considered for the future reasoning and driving decision.",
+        "answer": "________________\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_0dd14c14cea14dc1b0c0c9b0c9c7c4c3_6",
+        "question": "<image>\nPredict the behavior of the ego vehicle. Please select the correct answer from the following options: A. The ego vehicle is slightly steering to the left. The ego vehicle is driving very fast. B. The ego vehicle is slightly steering to the left. The ego vehicle is driving slowly. C. The ego vehicle is going straight. The ego vehicle is driving very fast. D. The ego vehicle is going straight. The ego vehicle is driving with normal speed.",
+        "answer": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Hinweis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    {
+        "id": "54cdaaae372d421fa4734d66f51a8c48_542eaf1fc9b34895a9e55fab57cb4cf4_1",
+        "question": "<image>\nWhat is the moving status of object <c1,CAM_FRONT,714.3,503.6>? Please select the correct answer from the following options: A. Stopped. B. Back up. C. Going ahead. D. Turn left.",
+        "answer": "##\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+]

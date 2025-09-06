@@ -1,0 +1,41 @@
+# pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+numpy==1.19.0
+nuscenes-devkit==1.1.10
+git+https://github.com/csuhan/timm_0_3_2.git
+git+https://github.com/openai/CLIP.git
+git+https://github.com/facebookresearch/detectron2.git
+deepspeed==0.15.2
+jinja2==3.1.6
+language-evaluation==0.1.0
+local-attention==1.10.0
+networkx==2.2
+ninja==1.11.1.4
+numba==0.48.0
+omegaconf==2.3.0
+openai==1.67.0
+openmim==0.3.9
+pandas==1.0.0
+pillow==10.4.0
+protobuf==3.20.0
+safetensors==0.5.3
+scikit-image==0.19.0
+scikit-learn==1.3.2
+scipy==1.10.1
+seaborn==0.12.2
+shapely==1.8.5
+similaritymeasures==1.2.0
+tensorboard==2.0.0
+tomli==2.2.1
+tomlkit==0.12.0
+tqdm==4.65.2
+einops==0.8.1
+
+# wget https://developer.download.nvidia.com/compute/cuda/11.1.1/local_installers/cuda_11.1.1_455.32.00_linux.run
+
+# mim install 'mmcv-full==1.4.0'
+# pip install 'mmdet==2.14.0'
+# pip install "mmsegmentation==0.14.1"
+
+# git clone https://github.com/open-mmlab/mmdetection3d.git
+# git checkout v0.17.1
+# pip install -v -e .
