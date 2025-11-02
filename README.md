@@ -62,6 +62,8 @@ NetRoller Bias C1: [OneDrive](https://hkustconnect-my.sharepoint.com/:f:/g/perso
 
 NetRoller TF C1: [OneDrive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/rxin_connect_ust_hk/Etfx6wZzThhNtoU2OljECagBD7GTPxmElDOMCXNKZSYn0g?e=zRyIGd)
 
+If the OneDrive links are expired please download them from the [HuggingFace](https://huggingface.co/rxinhkust/NetRoller/tree/main).
+
 ## Evaluation
 
 `cd challenge/RollNet && bash rollnet_eval_local.sh <ckpt_folder_with_cfg>`
