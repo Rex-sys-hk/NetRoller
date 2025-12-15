@@ -50,15 +50,23 @@ Qualitative comparisons on perception and planning performance are presented. Th
 
 ## Setup Environment
 
-Comming soon.
+Download and preprocess dataset following instructions from https://github.com/OpenDriveLab/DriveLM/blob/main/docs/data_prep_nus.md.
+
+Setup conda/python environments by `pip install -r requirements.txt`, and follow instructions in `requirements.txt` file to install dependecies from about mmcv.
+
+
 
 ## Checkpoint
 
-Comming soon.
+NetRoller Bias C1: [OneDrive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/rxin_connect_ust_hk/EvmdGvvOmHVHuXfr4Hwi088BWdTl3z0mMqfUDEO9ZxUHLw?e=iXHz0i)
+
+NetRoller TF C1: [OneDrive](https://hkustconnect-my.sharepoint.com/:f:/g/personal/rxin_connect_ust_hk/Etfx6wZzThhNtoU2OljECagBD7GTPxmElDOMCXNKZSYn0g?e=zRyIGd)
+
+If the OneDrive links are expired please download them from the [HuggingFace](https://huggingface.co/rxinhkust/NetRoller/tree/main).
 
 ## Evaluation
 
-Comming soon.
+`cd challenge/RollNet && bash rollnet_eval_local.sh <ckpt_folder_with_cfg>`
 
 
 ## To Do
@@ -66,10 +74,11 @@ Comming soon.
 The code is under cleaning and will be released gradually.
 
 - [ ] Improve docs
-- [ ] Tutorial
-- [ ] Evaluation
-- [ ] Checkpoint
-- [ ] Source
+- [ ] Cleaning up the repo
+- [x] Tutorial
+- [x] Evaluation
+- [x] Checkpoint
+- [x] Source
 - [x] Initial repo & paper
 
 The code and models will be made open-source gradually before the paper is accepeted.
@@ -96,4 +105,4 @@ If you find this repo useful, please consider giving us a star 🌟 and citing o
 - [VAD](https://github.com/hustvl/VAD)
 
 ## Others
-
+- The main body of code is located at `challenge/RollNet/projects/mmdet3d_plugin/rollnet`
